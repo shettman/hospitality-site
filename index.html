@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-padding-top: 260px;">
+<head>
+  <title>BizDigital Solutions | Hospitality Technology Partners</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta property="og:title" content="BizDigital Solutions | Hospitality Technology Partners">
+  <meta property="og:description" content="Accelerating hospitality through technology. Cloud PMS, Analytics, and Revenue Management for modern businesses.">
+  <meta property="og:image" content="https://YOUR_DOMAIN_HERE/logo.png">
+  <meta property="og:url" content="https://YOUR_DOMAIN_HERE">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BizDigital Solutions | Hospitality Tech">
+  <meta name="twitter:description" content="Enterprise-grade technology for hospitality leaders.">
+  <meta name="twitter:image" content="https://YOUR_DOMAIN_HERE/images/logo.png">
+
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Lato:400,400i,700" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    body { font-family: 'Lato', sans-serif; line-height: 1.6; color: #333; scroll-behavior: smooth; overflow-x: hidden; }
+
+    /* Navbar Styling */
+    .navbar { 
+        background-color: rgba(255, 255, 255, 0.98); 
+        backdrop-filter: blur(5px); 
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+        padding: 10px 0; 
+    }
+    
+    .navbar-brand img { 
+      height: 250px; 
+      width: auto;
+      transition: 0.3s; 
+    }
+    
+    .nav-link { font-weight: 700; color: #000 !important; letter-spacing: 1px; margin-left: 15px; }
+    .nav-link:hover { color: #008b8b !important; }
+
+    /* Hero Section */
+    #hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                  url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1600');
+      background-size: cover; background-position: center; background-attachment: fixed;
+      color: #fff; padding: 120px 0; min-height: 70vh; display: flex; align-items: center;
+    }
+
+    /* Carousel Section */
+    .carousel-section { background-color: #f8f9fa; padding: 100px 0; } 
+    .icon-box { font-size: 50px; color: #00cccc; margin-bottom: 20px; }
+    .carousel-item h4 { font-style: italic; color: #555; padding: 0 15%; }
+
+    /* WhatsApp Float */
+    .whatsapp-float {
+      position: fixed; bottom: 20px; right: 20px; background-color: #25d366; color: #fff;
+      padding: 12px 20px; border-radius: 50px; display: flex; align-items: center;
+      text-decoration: none; font-weight: bold; box-shadow: 2px 5px 15px rgba(0,0,0,0.3);
+      z-index: 10000; transition: 0.3s; cursor: pointer;
+    }
+    .whatsapp-float:hover { background-color: #128c7e; color: #fff; transform: scale(1.05); }
+
+    /* Honeypot Security */
+    .hidden-field { display: none !important; visibility: hidden !important; }
+
+    #submit-btn { background-color: #000; color: #fff; padding: 12px 30px; font-weight: bold; transition: 0.3s; }
+    #thank-you-message { display: none; text-align: center; padding: 40px; }
+
+    /* Responsive Scaling */
+    @media (max-width: 992px) {
+      html { scroll-padding-top: 160px; }
+      .navbar-brand img { height: 150px; } 
+    }
+    @media (max-width: 768px) {
+      html { scroll-padding-top: 110px; }
+      .navbar-brand img { height: 100px; } 
+      .whatsapp-float span { display: none; }
+      .whatsapp-float { padding: 15px; border-radius: 50%; }
+      #hero { background-attachment: scroll; }
+    }
+  </style>
+</head>
+
+<body id="myPage" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="270">
+
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#myPage">
+      <img src="images/logo.png" alt="Bizdigital Solutions" loading="lazy" onerror="this.style.display='none'; this.after('@BizDigital.Solutions')">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-uppercase">
+        <li class="nav-item"><a class="nav-link" href="#whyDigital">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="hero" class="text-center">
+  <div class="container">
+    <h1 class="display-1 fw-bold">@BizDigital.Solutions</h1>
+    <p class="lead fs-3">Technology Solutions for Indoor & Outdoor Hospitality Business</p>
+    <a href="#services" class="btn btn-outline-light btn-lg mt-4 px-5 py-3 text-uppercase">Our Solutions</a>
+  </div>
+</section>
+
+<section id="whyDigital" class="carousel-section text-center">
+  <div id="carouselWrapper" class="carousel slide" data-bs-ride="carousel">
+    <h2 class="mb-5 fw-bold text-uppercase">Why go digital?</h2>
+    <div class="carousel-inner">
+      <div class="carousel-item active"><h4>"Improved guest experience — Digital check-in makes the journey seamless."</h4></div>
+      <div class="carousel-item"><h4>"Increased revenue — Optimize occupancy rates through automated distribution."</h4></div>
+      <div class="carousel-item"><h4>"AI Support — Provide 24/7 customer service via digital touchpoints."</h4></div>
+    </div>
+    <div class="mt-5">
+      <button class="btn btn-dark rounded-circle me-2" type="button" data-bs-target="#carouselWrapper" data-bs-slide="prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="btn btn-dark rounded-circle" type="button" data-bs-target="#carouselWrapper" data-bs-slide="next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="container py-5 text-center">
+  <h2 class="mb-2 fw-bold text-uppercase">Services</h2>
+  <div class="row g-5">
+    <div class="col-md-4"><div class="icon-box"><i class="fas fa-cloud-sun"></i></div><h4 class="fw-bold">Cloud SaaS PMS</h4><p>Modern Property Management Systems delivered as a seamless service.</p></div>
+    <div class="col-md-4"><div class="icon-box"><i class="fas fa-chart-pie"></i></div><h4 class="fw-bold">Analytics & BI</h4><p>Turn your data into actionable insights for better business decisions.</p></div>
+    <div class="col-md-4"><div class="icon-box"><i class="fas fa-sack-dollar"></i></div><h4 class="fw-bold">Revenue Management</h4><p>Sophisticated strategies to increase profitability and ADR.</p></div>
+    <div class="col-md-4"><div class="icon-box"><i class="fas fa-globe-americas"></i></div><h4 class="fw-bold">E-Distribution</h4><p>Reach every corner of the globe with integrated channel management.</p></div>
+    <div class="col-md-4"><div class="icon-box"><i class="fas fa-database"></i></div><h4 class="fw-bold">Data Migration</h4><p>Secure ETL processes to move legacy data into the cloud.</p></div>
+    <div class="col-md-4"><div class="icon-box"><i class="fas fa-bullhorn"></i></div><h4 class="fw-bold">Digital Marketing</h4><p>SEO and Email marketing specialized for hospitality growth.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="container py-5 mb-5">
+  <div class="row">
+    <div class="col-md-5">
+      <h2 class="fw-bold">GET IN TOUCH</h2>
+      <p class="text-danger mt-3 font-monospace">Response time: &lt; 24 hours</p>
+      <p class="text-muted mt-4">Reach out to our experts via the form or WhatsApp for a direct consultation.</p>
+    </div>
+    <div class="col-md-7">
+      <div id="form-container" class="bg-white p-4 rounded shadow-sm border">
+        <form id="contact-form" action="https://formspree.io/f/xaqejraz" method="POST">
+          <input type="text" name="_honey" class="hidden-field">
+          
+          <div class="row mb-3">
+            <div class="col-md-6"><input type="text" name="name" class="form-control" placeholder="Your Name" required></div>
+            <div class="col-md-6"><input type="email" name="_replyto" class="form-control" placeholder="Email Address" required></div>
+          </div>
+          <textarea name="message" class="form-control mb-3" rows="5" placeholder="Tell us about your project" required></textarea>
+          <button id="submit-btn" type="submit" class="btn btn-dark w-100">Send Inquiry</button>
+        </form>
+      </div>
+      <div id="thank-you-message" class="bg-white p-5 rounded shadow-sm border text-center">
+        <div class="check-circle"><i class="fas fa-check-circle"></i></div>
+        <h3 class="fw-bold">Thank You!</h3>
+        <p class="text-muted">Inquiry received. We will contact you shortly.</p>
+        <button class="btn btn-outline-dark mt-3" onclick="location.reload()">Back</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="pt-5 pb-3 text-white" style="background-color: #111;">
+  <div class="container text-center">
+    <h5 class="text-info fw-bold mb-3">@BizDigital.Solutions</h5>
+    <div class="fs-4 mb-4">
+      <a href="https://www.linkedin.com/in/YOUR_PROFILE_URL" target="_blank" class="text-white me-4 text-decoration-none">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      
+      <a href="https://x.com/YOUR_HANDLE" target="_blank" class="text-white text-decoration-none" title="X (Twitter)">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </div>
+    <p class="small text-secondary">&copy; 2026 BizDigital Solutions. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<div onclick="openSecureChat()" class="whatsapp-float">
+  <i class="fab fa-whatsapp"></i><span>Chat with us</span>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // SECURE WHATSAPP: Using Base64 to hide your number from bots
+  function openSecureChat() {
+    const encodedNumber = 'OTE5NDIyNjk2MzE2'; 
+    const decodedNumber = atob(encodedNumber);
+    const message = encodeURIComponent("Hi BizDigital, I'm interested in your hospitality solutions.");
+    window.open(`https://wa.me/${decodedNumber}?text=${message}`, '_blank');
+  }
+
+  // FORM HANDLING
+  const form = document.getElementById("contact-form");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (e.target._honey.value !== "") return; // Bot block
+
+    document.getElementById("submit-btn").innerHTML = "Sending...";
+    fetch(e.target.action, { 
+      method: 'POST', 
+      body: new FormData(e.target), 
+      headers: { 'Accept': 'application/json' } 
+    }).then(response => { 
+      if (response.ok) { 
+        document.getElementById("form-container").style.display = "none"; 
+        document.getElementById("thank-you-message").style.display = "block"; 
+      } 
+    });
+  });
+</script>
+
+</body>
+</html>
